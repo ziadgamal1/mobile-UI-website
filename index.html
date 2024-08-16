@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+
+    <title>Mobile application</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="color"></div>
+    <div class="container">
+      <div class="mobile--container">
+        <div class="mobile">
+          <header class="pink">
+            <div class="white"></div>
+            <div class="flex--1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 chevron-left"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5 8.25 12l7.5-7.5"
+                />
+              </svg>
+
+              <img src="images/avatar.jpg" alt="nigga" class="avatar" />
+              <article>
+                <h5 class="text header--5">Samuel Green</h5>
+                <span class="text walk"> Available to Walk </span>
+              </article>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 dots--3"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z"
+              />
+            </svg>
+          </header>
+          <section class="chat">
+            <article class="me">
+              <p class="text chat--text">
+                That sounds great. I’d be happy with that.
+              </p>
+              <p class="text chat--text">
+                Could you send over some pictures of your dog, please?
+              </p>
+            </article>
+            <article class="samuel">
+              <div class="images">
+                <img src="images/dog-image-1.jpg" alt="poppy" class="dog" />
+                <img src="images/dog-image-2.jpg" alt="poppy" class="dog" />
+                <img src="images/dog-image-3.jpg" alt="poppy" class="dog" />
+              </div>
+              <p class="text chat--text other">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+              <p class="text chat--text other">Can you make it?</p>
+            </article>
+            <article class="me">
+              <p class="text chat--text">
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+              <div class="buttons">
+                <button class="text button--flex">
+                  <div class="radio">
+                    <label class="custom-radio--btn">
+                      <input type="radio" class="radio--btn" name="price" />
+                      <span class="checkmark"></span>
+                    </label>
+                    <p>30 minute walk</p>
+                  </div>
+                  <span class="text price"> $29 </span>
+                </button>
+                <button class="text button--flex">
+                  <div class="radio">
+                    <label class="custom-radio--btn">
+                      <input type="radio" class="radio--btn" name="price" />
+                      <span class="checkmark"></span>
+                    </label>
+                    <p class="text">1 hour walk</p>
+                  </div>
+                  <span class="text price"> $49 </span>
+                </button>
+              </div>
+            </article>
+            <input class="type" type="text" placeholder="Type a message… " />
+            <div class="svg">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 submit"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
+          </section>
+        </div>
+      </div>
+      <section class="booking">
+        <h1 class="text booking--header">Simple booking</h1>
+        <p class="text booking--p">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </section>
+    </div>
+    <div class="color--2"></div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.linkedin.com/in/ziad-gamal-181252247/">Ziad_Gamal</a
+      >.
+    </div>
+  </body>
+</html>
